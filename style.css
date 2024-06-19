@@ -1,0 +1,21 @@
+.car {
+    width: 200px;
+   /* height: 400px; */
+}
+.btn {
+    width: 200px;
+    height: 100px;
+    background-color: rgb(218, 248, 107);
+    border-radius: 20px;
+    font-size: 20px;
+    color: red;
+    display: block;
+    margin: 50px auto;
+}
+.btn:hover{
+    background-color: blanchedalmond;
+
+}
+.btn:hover ~ .car{
+    display: none;
+}
